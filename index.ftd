@@ -1,0 +1,101 @@
+;;- ftd.text dtype:
+;;size.px: 20
+;;weight.px: 400
+
+-- ftd.text: Hello Everyone,
+color: $inherited.colors.text
+margin-vertical.px: 10
+text-align: center
+
+-- ftd.text: I am Archita Sugandh.
+;; #dtype: ftd.text
+text-align: center
+style: bold, italic
+margin-vertical.px: 10
+text-indent.px: 45
+
+-- ftd.text.color :
+text-align: center
+light: red
+dark: blue
+
+-- ftd.row:
+margin-horizontal.px: 10
+margin-vertical.px: 10
+spacing.fixed.px: 5
+
+-- ftd.text: I am a from RCOEM.
+display: block
+border-color: $inherited.colors.text
+border-width.px: 2
+padding.px: 5
+border-radius.px: 3
+width.fixed.percent: 40
+
+-- ftd.text: Enthusiastic web developer.
+display: block
+border-color: $inherited.colors.text
+border-width.px: 2
+padding.px: 5
+border-radius.px: 3
+width.fixed.percent: 50
+
+-- ftd.text: I like reading books.
+display: block
+border-color: $inherited.colors.text
+border-width.px: 2
+padding.px: 5
+border-radius.px: 3
+width.fixed.percent: 30
+
+-- end: ftd.row
+
+-- ftd.column:
+spacing.fixed.px: 20
+margin-horizontal.px: 10
+
+-- ftd.text: I am a member of technical club of my college.
+display: block
+border-color: $inherited.colors.text
+border-width.px: 2
+padding.px: 5
+border-radius.px: 3
+width.fixed.percent: 60
+
+-- ftd.text: I am also a member of Robotics and Aviation club of my college.
+display: block
+border-color: $inherited.colors.text
+border-width.px: 2
+padding.px: 5
+border-radius.px: 3
+width.fixed.percent: 60
+
+-- ftd.text: My branch is AIML.
+display: block
+border-color: $inherited.colors.text
+border-width.px: 2
+padding.px: 5
+border-radius.px: 3
+width.fixed.percent: 60
+
+-- ftd.text: I am currently learning javascript.
+display: block
+border-color: $inherited.colors.text
+border-width.px: 2
+padding.px: 5
+border-radius.px: 3
+width.fixed.percent: 60
+
+-- end: ftd.column
+
+-- import: fastn.com/assets
+
+-- ftd.image: IMG-1.jpg
+alt: Image can't be displayed 
+color: $inherited.colors.text
+padding.px: 10
+width.fixed.px: 300
+border-radius.px: 25
+height.fixed.px: 400
+;;margin-horizontal.px: 700
+;;margin-vertical.px: 10
